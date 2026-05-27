@@ -1,0 +1,107 @@
+[/]
+alttab-switcher-delay=100
+alttab-switcher-show-all-workspaces=true
+alttab-switcher-warp-mouse-pointer=false
+command-history=['e', 'f', 'gl', 'lg', 'r']
+desktop-effects=false
+desktop-effects-change-size=true
+desktop-effects-on-dialogs=false
+desktop-effects-on-menus=false
+desktop-effects-workspace=true
+enable-vfade=false
+enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:separator@cinnamon.org:1', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:53:systray@cinnamon.org:3', 'panel1:right:55:xapp-status@cinnamon.org:4', 'panel1:right:56:notifications@cinnamon.org:5', 'panel1:right:57:printers@cinnamon.org:6', 'panel1:right:58:removable-drives@cinnamon.org:7', 'panel1:right:59:keyboard@cinnamon.org:8', 'panel1:right:60:favorites@cinnamon.org:9', 'panel1:right:62:network@cinnamon.org:10', 'panel1:right:61:sound@cinnamon.org:11', 'panel1:right:64:calendar@cinnamon.org:13', 'panel1:right:65:cornerbar@cinnamon.org:14', 'panel1:right:63:batterymonitor@pdcurtis:23', 'panel1:right:28:temperature@fevimu:47']
+looking-glass-history=['lol', 'simple', 'moni', 'min']
+next-applet-id=76
+panel-edit-mode=false
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 16}]'
+panels-autohide=['1:false']
+panels-enabled=['1:0:top']
+panels-height=['1:32']
+startup-animation=false
+window-effect-speed=1
+
+[desktop/a11y/keyboard]
+bouncekeys-delay=300
+mousekeys-accel-time=300
+mousekeys-init-delay=300
+mousekeys-max-speed=10
+slowkeys-delay=300
+
+[desktop/a11y/mouse]
+dwell-threshold=10
+dwell-time=1.2
+secondary-click-time=1.2
+
+[desktop/input-sources]
+sources=[('xkb', 'us'), ('xkb', 'ru')]
+
+[desktop/interface]
+clock-show-seconds=true
+cursor-blink-time=1200
+cursor-theme='Bibata-Modern-Classic'
+first-day-of-week=1
+gtk-theme='Mint-Y-Aqua'
+icon-theme='Mint-Y-Sand'
+toolkit-accessibility=false
+
+[desktop/keybindings/media-keys]
+screensaver=['<Primary><Super>l', 'XF86ScreenSaver']
+
+[desktop/keybindings/wm]
+switch-to-workspace-left=['<Control><Alt>Left', '<Primary><Super>Left']
+switch-to-workspace-right=['<Control><Alt>Right', '<Primary><Super>Right']
+
+[desktop/peripherals/keyboard]
+delay=uint32 500
+repeat-interval=uint32 30
+
+[desktop/screensaver]
+layout-group=0
+use-custom-format=false
+
+[desktop/session]
+idle-delay=uint32 300
+
+[desktop/sound]
+event-sounds=false
+
+[desktop/wm/preferences]
+audible-bell=false
+min-window-opacity=30
+workspace-names=@as []
+
+[gestures]
+swipe-down-2='PUSH_TILE_DOWN::end'
+swipe-down-3='TOGGLE_OVERVIEW::end'
+swipe-down-4='VOLUME_DOWN::end'
+swipe-left-2='PUSH_TILE_LEFT::end'
+swipe-left-3='WORKSPACE_NEXT::end'
+swipe-left-4='WINDOW_WORKSPACE_PREVIOUS::end'
+swipe-right-2='PUSH_TILE_RIGHT::end'
+swipe-right-3='WORKSPACE_PREVIOUS::end'
+swipe-right-4='WINDOW_WORKSPACE_NEXT::end'
+swipe-up-2='PUSH_TILE_UP::end'
+swipe-up-3='TOGGLE_EXPO::end'
+swipe-up-4='VOLUME_UP::end'
+tap-3='MEDIA_PLAY_PAUSE::end'
+
+[muffin]
+draggable-border-width=10
+
+[settings-daemon/peripherals/keyboard]
+numlock-state='off'
+
+[settings-daemon/plugins/color]
+night-light-last-coordinates=(52.366667, 4.9000000000000004)
+
+[settings-daemon/plugins/power]
+idle-dim-battery=true
+lid-close-ac-action='suspend'
+lid-close-battery-action='suspend'
+sleep-display-ac=0
+sleep-display-battery=900
+sleep-inactive-ac-timeout=0
+sleep-inactive-battery-timeout=0
+
+[theme]
+name='Mint-Y-Dark-Aqua'
