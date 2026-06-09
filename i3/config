@@ -213,6 +213,14 @@ exec_always --no-startup-id feh --randomize --bg-fill ~/Pictures/Wallpapers/
 # run once at startup
 exec --no-startup-id alttab -w 1 -d 1 -pk Left -nk Right -b 1 &
 
+# some visualization settings
+# removes borders around but keep for terminal
+default_border normal 0
+default_floating_border normal 0
+hide_edge_borders smart
+for_window [class="(?i)alacritty"] border normal 1
+for_window [class="(?i)zutty"] border normal 1
+
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
