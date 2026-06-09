@@ -205,10 +205,13 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# start picom compositor for X
+exec --no-startup-id picom -b
+# use a random wallpaper
+exec_always --no-startup-id feh --randomize --bg-fill ~/Pictures/Wallpapers/
+
 # run once at startup
-exec --no-startup-id xfsettingsd &
 exec --no-startup-id alttab -w 1 -d 1 -pk Left -nk Right -b 1 &
-exec --no-startup-id nitrogen --restore
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
