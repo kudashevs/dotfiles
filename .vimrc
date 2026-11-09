@@ -95,7 +95,7 @@ nnoremap <A-Left> :tabprevious<CR>
 
 "------------------Mappings------------------"
 "remove search highlighting
-nmap <Leader><space> :nohlsearch<cr>
+nmap <Leader>n :nohlsearch<cr>
 
 vnoremap <leader>y  "+y<cr>
 "ctrl+shift+X < https://www.reddit.com/r/vim/comments/1cbk0yx/windows_vim_app_any_way_to_enable_ctrlshiftcv_for/
