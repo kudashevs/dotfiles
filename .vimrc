@@ -60,13 +60,6 @@ augroup AutoSaving "does not work on i3 https://github.com/alacritty/alacritty/i
     autocmd FocusLost * silent! wa
 augroup END
 
-augroup i3_focus " test events
-        "autocmd VimEnter             * :sleep 100m | silent !notify-send "VimEnter"        && i3-msg -q mode vim
-        "autocmd FocusGained          * :sleep 100m | silent !notify-send "VimFocusGained"  && i3-msg -q mode vim
-        "autocmd FocusLost            * :sleep   10m | silent !notify-send "VimFocusLost"    && i3-msg -q mode default
-        "autocmd VimLeave             * :sleep   10m | silent !notify-send "VimLeave"        && i3-msg -q mode default
-augroup END
-
 "cabbrev <expr> ! (getcmdtype()==':' && getcmdpos()=='!' ? 'w <bar> !' : '!') does not work
 cnoremap <expr> <CR> (getcmdtype() == ':' && getcmdline() =~ '^!') ? '<Cmd>update<CR><CR>' : '<CR>'
 
@@ -111,15 +104,6 @@ vnoremap <C-S-C> "+y
 map <C-S-V> "+gP"
 imap <C-S-V> <C-R>+
 cmap <C-S-V> <C-R>+
-
-"auto braces https://stackoverflow.com/questions/21316727/automatic-closing-brackets-for-vim to avoid use Ctrl+v
-"inoremap " ""<left>
-"inoremap ' ''<left>
-"inoremap ( ()<left>
-"inoremap [ []<left>
-"inoremap { {}<left>
-"inoremap {<CR> {<CR>}<ESC>O
-"inoremap {;<CR> {<CR>};<ESC>O
 
 "------------------Commands------------------"
 "nmap <Leader>f :!php-cs-fixer fix % --using-cache no<cr>
